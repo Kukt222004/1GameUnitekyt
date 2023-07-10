@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\obgect\material\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
+    <Compile Include="Assets\script\cammeraControl.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\obgect\material\Free Low Poly Desert Pack\Materials\Shaders\Vertex_Color_Unlit.shader" />
