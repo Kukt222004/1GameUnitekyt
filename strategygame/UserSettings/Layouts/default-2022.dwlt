@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 102
+  controlID: 16
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 40
+  controlID: 17
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 18
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,7 +366,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25.358492}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -619,9 +619,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.8177385, y: 110.494, z: 19.859041}
+    m_Target: {x: -20.733557, y: 2.8452225, z: 177.60892}
     speed: 2
-    m_Value: {x: 7.8177385, y: 110.494, z: 19.859041}
+    m_Value: {x: -20.733557, y: 2.8452225, z: 177.60892}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -667,20 +667,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.40944237, y: -0.13438904, z: 0.061117258, w: -0.90031147}
+    m_Target: {x: -0.23594153, y: -0.14046544, z: 0.034490637, w: -0.96095324}
     speed: 2
-    m_Value: {x: -0.41204885, y: -0.1355536, z: 0.062138308, w: -0.89887697}
+    m_Value: {x: -0.23700294, y: -0.15049042, z: 0.037191503, w: -0.9590616}
   m_Size:
-    m_Target: 5.24731
+    m_Target: 54.219265
     speed: 2
-    m_Value: 5.4945655
+    m_Value: 56.7741
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 50
-    m_SpeedNormalized: 1
+    m_Speed: 14.000728
+    m_SpeedNormalized: 0.28000015
     m_SpeedMin: 0.001
     m_SpeedMax: 50
     m_EasingEnabled: 1
@@ -734,10 +734,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9a5a0000
-      m_LastClickedID: 23194
-      m_ExpandedIDs: 28fbffff
+      scrollPos: {x: 0, y: 80}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 3c7cffff28fbffffb25900007c5a0000c45a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -904,7 +904,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/obgect/material/Free Low Poly Desert Pack/Unity Prefabs/Trees
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -912,16 +912,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/obgect/material/Free Low Poly Desert Pack/Unity Prefabs/Trees
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "E:\\\u0434\u043E\u043C \u0440\u0430\u0431\\\u0443\u0447\u0451\u0431\u0430\\unite\\1GameUnitekyt\\strategygame"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 21.33957}
-    m_SelectedIDs: 525c0000
-    m_LastClickedID: 23634
-    m_ExpandedIDs: 00000000525c0000545c0000565c0000585c00005a5c00005c5c00005e5c0000605c0000625c000000ca9a3b
+    scrollPos: {x: 0, y: 177.33957}
+    m_SelectedIDs: 2e6b0000
+    m_LastClickedID: 27438
+    m_ExpandedIDs: 00000000525c0000545c0000565c0000585c00005a5c00005c5c00005e5c0000605c0000625c0000805c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -976,7 +976,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000054a60000e271feff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
