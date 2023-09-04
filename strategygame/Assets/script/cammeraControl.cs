@@ -8,6 +8,13 @@ public class CameraControl : MonoBehaviour
 
     private float _mult = 1f;
 
+    /*public float MouseSens = 100f;
+
+    public Transform playerBody;
+
+    float xRotation = 0f;*/
+
+
     public void Update()
     {
         _mult = Input.GetKey(KeyCode.LeftShift) ? 2f : 1f;
@@ -25,6 +32,17 @@ public class CameraControl : MonoBehaviour
                 rotate = 1f;
             transform.Rotate(Vector3.up * rotorSpeed * Time.deltaTime * rotate * _mult , Space.Self);
         }
+
+       /* float mouseX = Input.GetAxis("Mouse X") * MouseSens * Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * MouseSens * Time.deltaTime;
+
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+
+        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        playerBody.Rotate(Vector3.up * mouseX);    */                                          
+
+
 
     }
 }

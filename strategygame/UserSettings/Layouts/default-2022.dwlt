@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1304.151
     height: 733.5849
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -242,14 +242,14 @@ MonoBehaviour:
     y: 451.92453
     width: 1011.6227
     height: 231.66043
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 292.52832
     height: 683.58496
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -619,9 +619,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -56.773106, y: 4.9680834, z: -14.635156}
+    m_Target: {x: -1.8627353, y: 28.754982, z: 0.11226944}
     speed: 2
-    m_Value: {x: -56.7731, y: 4.968083, z: -14.635146}
+    m_Value: {x: -1.8627353, y: 28.754982, z: 0.11226944}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -667,20 +667,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0036989828, y: 0.9835028, z: 0.020293912, w: -0.17977427}
+    m_Target: {x: -0.125582, y: 0.7375217, z: -0.14294225, w: -0.6479812}
     speed: 2
-    m_Value: {x: 0.0017828875, y: 0.9781415, z: 0.008443212, w: -0.20776138}
+    m_Value: {x: -0.12558067, y: 0.7375139, z: -0.14294073, w: -0.6479744}
   m_Size:
-    m_Target: 21.51316
+    m_Target: 2.5397577
     speed: 2
-    m_Value: 20.586756
+    m_Value: 2.5397577
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 14.000728
-    m_SpeedNormalized: 0.28000015
+    m_Speed: 15.500697
+    m_SpeedNormalized: 0.31000015
     m_SpeedMin: 0.001
     m_SpeedMax: 50
     m_EasingEnabled: 1
@@ -734,10 +734,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 3744}
-      m_SelectedIDs: 
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 26450000
       m_LastClickedID: 0
-      m_ExpandedIDs: 28fbffff885e0000
+      m_ExpandedIDs: 28fbffff705a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -904,7 +904,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/obgect/material/LowPolyWater_Pack/LowPoly Island
+    - Assets/script
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -912,16 +912,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/obgect/material/LowPolyWater_Pack/LowPoly Island
+  - Assets/script
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "E:\\\u0434\u043E\u043C \u0440\u0430\u0431\\\u0443\u0447\u0451\u0431\u0430\\unite\\1GameUnitekyt\\strategygame"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 257.33957}
-    m_SelectedIDs: 9c610000
-    m_LastClickedID: 24988
-    m_ExpandedIDs: 000000003e61000040610000426100004461000046610000486100004a6100004c6100004e610000
+    m_SelectedIDs: 7e610000
+    m_LastClickedID: 24958
+    m_ExpandedIDs: 000000002e610000306100003261000036610000386100003a6100003c6100003e6100007861000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -949,7 +949,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003e61000040610000426100004461000046610000486100004a6100004c6100004e610000
+    m_ExpandedIDs: 000000002e61000030610000326100003461000036610000386100003a6100003c6100003e610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -976,7 +976,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000054a60000e271feff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
